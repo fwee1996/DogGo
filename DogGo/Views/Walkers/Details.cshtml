@@ -1,0 +1,128 @@
+﻿@*
+    @model DogGo.Models.Walker
+   
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Walker</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Id)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Id)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+        
+
+
+<!--not using id use name-->
+       @*  <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.NeighborhoodId)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.NeighborhoodId)
+        </dd> *@
+<!--not using id use name-->
+
+@*    <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Neighborhood.Name)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Neighborhood.Name)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.ImageUrl)
+        </dt>
+        <dd class = "col-sm-10">
+            <!-- Instead of seeing the actual url, lets replace that with an actual image. Replace the code that say @* @Html.DisplayFor(modelItem => item.ImageUrl)  with the following  -->
+@*             <img class="bg-info" src="@Model.ImageUrl" alt="avatar" />
+        </dd>
+    </dl>
+</div>
+<div>
+    <!--The View-->
+    <!-- instead of using Model.PrimaryKey, change the code to say Model.Id on each of the action links. -->
+    @Html.ActionLink("Edit", "Edit", new {  id = Model.Id }) |
+    <a asp-action="Index">Back to List</a>
+</div>
+
+*@
+
+@model DogGo.Models.ViewModels.WalkerProfileViewModel
+
+@{ ViewData["Title"] ="Profile"; }
+<div>
+  <h1 class="mb-4">Walker Profile</h1>
+
+  <section class="container">
+    <img
+      style="width:100px;float:left;margin-right:20px"
+             src="https://upload.wikimedia.org/wikipedia/commons/a/a0/Font_Awesome_5_regular_user-circle.svg" />
+    <div>
+      <label class="font-weight-bold">Name:</label>
+      <span>@Model.Walker.Name</span>
+    </div>
+    <div>
+      <label class="font-weight-bold">Phone:</label>
+      <span>@Model.Walker.Neighborhood.Name</span>
+    </div>
+  
+  </section>
+
+  <hr class="mt-5" />
+  <div class="clearfix"></div>
+
+  <div class="row">
+    <section class="col-8 container mt-5">
+      <h1 class="text-left">Recent Walks</h1>
+
+      <div class="row">
+        <div class="card m-4" style="width: 18rem;">
+          <div class="card-body">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>ClientName</th>
+                        <th>Duration</th>
+                    </tr>
+                </thead>
+                 <tbody>
+                     @foreach (var walk in Model.Walks.OrderBy(w => w.ClientName)) // Order alphabetically by client name
+                     {
+                         <tr>
+                             <td>@walk.Date.ToString("MMM dd, yyyy")</td>
+                             <td>@walk.ClientName</td>
+                             <td>@(walk.Duration.ToString("0") + " min")</td>
+                         </tr>
+                     }
+                 </tbody>
+            </table>
+                    
+
+          </div>
+        </div>
+        
+      </div>
+    </section>
+
+    <section class="col-lg-4 col-md-8 container mt-5">
+      <h1>Total Walk Time:</h1>
+            <p class="font-weight-bold ml-4">@Model.TotalWalkTime.Hours hr @Model.TotalWalkTime.Minutes min</p>
+ 
+               
+    </section>
+  </div>
+</div>

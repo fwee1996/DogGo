@@ -1,0 +1,34 @@
+﻿ @*@model DogGo.Models.ViewModels.ScheduleWalkViewModel
+
+ @{
+     ViewData["Title"] = "Schedule Walk";
+ }
+
+ <h1>Schedule a Walk with @Model.Walker.Name</h1>
+
+ <form asp-action="ScheduleWalk" method="post">
+     <input type="hidden" name="WalkerId" value="@Model.Walker.Id" />
+
+     <div class="form-group">
+         <label asp-for="DogId">Select Dog</label>
+         <select asp-for="DogId" class="form-control" asp-items="@(new SelectList(Model.Dogs, "Id", "Name"))">
+             <option value="">-- Select a Dog --</option>
+         </select>
+         <span asp-validation-for="DogId" class="text-danger"></span>
+     </div>
+
+     <div class="form-group">
+         <label asp-for="DateTime">Walk Date and Time</label>
+         <input asp-for="DateTime" class="form-control" type="datetime-local" />
+         <span asp-validation-for="DateTime" class="text-danger"></span>
+     </div>
+
+     <div class="form-group">
+         <label asp-for="Duration">Duration (minutes)</label>
+         <input asp-for="Duration" class="form-control" type="number" min="1" />
+         <span asp-validation-for="Duration" class="text-danger"></span>
+     </div>
+
+     <button type="submit" class="btn btn-primary">Schedule Walk</button>
+ </form>
+ *@

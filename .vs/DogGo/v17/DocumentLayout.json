@@ -1,0 +1,362 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\workspace\\DogGo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DB72FE1A-938C-48A4-9DEB-4C5DD678F2C7}|DogGo\\DogGo.csproj|c:\\users\\user\\workspace\\doggo\\doggo\\controllers\\ownerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB72FE1A-938C-48A4-9DEB-4C5DD678F2C7}|DogGo\\DogGo.csproj|solutionrelative:doggo\\controllers\\ownerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB72FE1A-938C-48A4-9DEB-4C5DD678F2C7}|DogGo\\DogGo.csproj|c:\\users\\user\\workspace\\doggo\\doggo\\views\\dogs\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DB72FE1A-938C-48A4-9DEB-4C5DD678F2C7}|DogGo\\DogGo.csproj|solutionrelative:doggo\\views\\dogs\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB72FE1A-938C-48A4-9DEB-4C5DD678F2C7}|DogGo\\DogGo.csproj|c:\\users\\user\\workspace\\doggo\\doggo\\repositories\\ownerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB72FE1A-938C-48A4-9DEB-4C5DD678F2C7}|DogGo\\DogGo.csproj|solutionrelative:doggo\\repositories\\ownerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB72FE1A-938C-48A4-9DEB-4C5DD678F2C7}|DogGo\\DogGo.csproj|c:\\users\\user\\workspace\\doggo\\doggo\\views\\owners\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DB72FE1A-938C-48A4-9DEB-4C5DD678F2C7}|DogGo\\DogGo.csproj|solutionrelative:doggo\\views\\owners\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB72FE1A-938C-48A4-9DEB-4C5DD678F2C7}|DogGo\\DogGo.csproj|c:\\users\\user\\workspace\\doggo\\doggo\\views\\dogs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DB72FE1A-938C-48A4-9DEB-4C5DD678F2C7}|DogGo\\DogGo.csproj|solutionrelative:doggo\\views\\dogs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB72FE1A-938C-48A4-9DEB-4C5DD678F2C7}|DogGo\\DogGo.csproj|c:\\users\\user\\workspace\\doggo\\doggo\\views\\dogs\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DB72FE1A-938C-48A4-9DEB-4C5DD678F2C7}|DogGo\\DogGo.csproj|solutionrelative:doggo\\views\\dogs\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB72FE1A-938C-48A4-9DEB-4C5DD678F2C7}|DogGo\\DogGo.csproj|c:\\users\\user\\workspace\\doggo\\doggo\\views\\dogs\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DB72FE1A-938C-48A4-9DEB-4C5DD678F2C7}|DogGo\\DogGo.csproj|solutionrelative:doggo\\views\\dogs\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB72FE1A-938C-48A4-9DEB-4C5DD678F2C7}|DogGo\\DogGo.csproj|c:\\users\\user\\workspace\\doggo\\doggo\\views\\owners\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DB72FE1A-938C-48A4-9DEB-4C5DD678F2C7}|DogGo\\DogGo.csproj|solutionrelative:doggo\\views\\owners\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB72FE1A-938C-48A4-9DEB-4C5DD678F2C7}|DogGo\\DogGo.csproj|c:\\users\\user\\workspace\\doggo\\doggo\\views\\owners\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DB72FE1A-938C-48A4-9DEB-4C5DD678F2C7}|DogGo\\DogGo.csproj|solutionrelative:doggo\\views\\owners\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB72FE1A-938C-48A4-9DEB-4C5DD678F2C7}|DogGo\\DogGo.csproj|c:\\users\\user\\workspace\\doggo\\doggo\\controllers\\walkerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB72FE1A-938C-48A4-9DEB-4C5DD678F2C7}|DogGo\\DogGo.csproj|solutionrelative:doggo\\controllers\\walkerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB72FE1A-938C-48A4-9DEB-4C5DD678F2C7}|DogGo\\DogGo.csproj|c:\\users\\user\\workspace\\doggo\\doggo\\models\\dog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB72FE1A-938C-48A4-9DEB-4C5DD678F2C7}|DogGo\\DogGo.csproj|solutionrelative:doggo\\models\\dog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB72FE1A-938C-48A4-9DEB-4C5DD678F2C7}|DogGo\\DogGo.csproj|c:\\users\\user\\workspace\\doggo\\doggo\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB72FE1A-938C-48A4-9DEB-4C5DD678F2C7}|DogGo\\DogGo.csproj|solutionrelative:doggo\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB72FE1A-938C-48A4-9DEB-4C5DD678F2C7}|DogGo\\DogGo.csproj|c:\\users\\user\\workspace\\doggo\\doggo\\models\\neighborhood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB72FE1A-938C-48A4-9DEB-4C5DD678F2C7}|DogGo\\DogGo.csproj|solutionrelative:doggo\\models\\neighborhood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB72FE1A-938C-48A4-9DEB-4C5DD678F2C7}|DogGo\\DogGo.csproj|c:\\users\\user\\workspace\\doggo\\doggo\\models\\owner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB72FE1A-938C-48A4-9DEB-4C5DD678F2C7}|DogGo\\DogGo.csproj|solutionrelative:doggo\\models\\owner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB72FE1A-938C-48A4-9DEB-4C5DD678F2C7}|DogGo\\DogGo.csproj|c:\\users\\user\\workspace\\doggo\\doggo\\models\\walker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB72FE1A-938C-48A4-9DEB-4C5DD678F2C7}|DogGo\\DogGo.csproj|solutionrelative:doggo\\models\\walker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB72FE1A-938C-48A4-9DEB-4C5DD678F2C7}|DogGo\\DogGo.csproj|c:\\users\\user\\workspace\\doggo\\doggo\\models\\walks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB72FE1A-938C-48A4-9DEB-4C5DD678F2C7}|DogGo\\DogGo.csproj|solutionrelative:doggo\\models\\walks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB72FE1A-938C-48A4-9DEB-4C5DD678F2C7}|DogGo\\DogGo.csproj|c:\\users\\user\\workspace\\doggo\\doggo\\repositories\\walkrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB72FE1A-938C-48A4-9DEB-4C5DD678F2C7}|DogGo\\DogGo.csproj|solutionrelative:doggo\\repositories\\walkrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB72FE1A-938C-48A4-9DEB-4C5DD678F2C7}|DogGo\\DogGo.csproj|c:\\users\\user\\workspace\\doggo\\doggo\\repositories\\iwalkrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB72FE1A-938C-48A4-9DEB-4C5DD678F2C7}|DogGo\\DogGo.csproj|solutionrelative:doggo\\repositories\\iwalkrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB72FE1A-938C-48A4-9DEB-4C5DD678F2C7}|DogGo\\DogGo.csproj|c:\\users\\user\\workspace\\doggo\\doggo\\models\\viewmodels\\schedulewalkviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB72FE1A-938C-48A4-9DEB-4C5DD678F2C7}|DogGo\\DogGo.csproj|solutionrelative:doggo\\models\\viewmodels\\schedulewalkviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB72FE1A-938C-48A4-9DEB-4C5DD678F2C7}|DogGo\\DogGo.csproj|c:\\users\\user\\workspace\\doggo\\doggo\\views\\walkers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DB72FE1A-938C-48A4-9DEB-4C5DD678F2C7}|DogGo\\DogGo.csproj|solutionrelative:doggo\\views\\walkers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB72FE1A-938C-48A4-9DEB-4C5DD678F2C7}|DogGo\\DogGo.csproj|c:\\users\\user\\workspace\\doggo\\doggo\\views\\walkers\\selectwalker.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DB72FE1A-938C-48A4-9DEB-4C5DD678F2C7}|DogGo\\DogGo.csproj|solutionrelative:doggo\\views\\walkers\\selectwalker.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 243,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "WalkersController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\workspace\\DogGo\\DogGo\\Controllers\\WalkersController.cs",
+              "RelativeDocumentMoniker": "DogGo\\Controllers\\WalkersController.cs",
+              "ToolTip": "C:\\Users\\user\\workspace\\DogGo\\DogGo\\Controllers\\WalkersController.cs",
+              "RelativeToolTip": "DogGo\\Controllers\\WalkersController.cs",
+              "ViewState": "AQIAAGIAAAAAAAAAAAApwMYAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T12:48:32.88Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\workspace\\DogGo\\DogGo\\Views\\Dogs\\Edit.cshtml",
+              "RelativeDocumentMoniker": "DogGo\\Views\\Dogs\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\user\\workspace\\DogGo\\DogGo\\Views\\Dogs\\Edit.cshtml",
+              "RelativeToolTip": "DogGo\\Views\\Dogs\\Edit.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABAAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-02T14:11:17.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OwnersController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\workspace\\DogGo\\DogGo\\Controllers\\OwnersController.cs",
+              "RelativeDocumentMoniker": "DogGo\\Controllers\\OwnersController.cs",
+              "ToolTip": "C:\\Users\\user\\workspace\\DogGo\\DogGo\\Controllers\\OwnersController.cs",
+              "RelativeToolTip": "DogGo\\Controllers\\OwnersController.cs",
+              "ViewState": "AQIAAJcAAAAAAAAAAAAUwKEAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T11:33:40.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OwnerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\workspace\\DogGo\\DogGo\\Repositories\\OwnerRepository.cs",
+              "RelativeDocumentMoniker": "DogGo\\Repositories\\OwnerRepository.cs",
+              "ToolTip": "C:\\Users\\user\\workspace\\DogGo\\DogGo\\Repositories\\OwnerRepository.cs",
+              "RelativeToolTip": "DogGo\\Repositories\\OwnerRepository.cs",
+              "ViewState": "AQIAAK0AAAAAAAAAAAAswLIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T13:31:54.194Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\workspace\\DogGo\\DogGo\\Views\\Dogs\\Index.cshtml",
+              "RelativeDocumentMoniker": "DogGo\\Views\\Dogs\\Index.cshtml",
+              "ToolTip": "C:\\Users\\user\\workspace\\DogGo\\DogGo\\Views\\Dogs\\Index.cshtml",
+              "RelativeToolTip": "DogGo\\Views\\Dogs\\Index.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAAAkAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-30T12:00:33.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\workspace\\DogGo\\DogGo\\Views\\Owners\\Edit.cshtml",
+              "RelativeDocumentMoniker": "DogGo\\Views\\Owners\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\user\\workspace\\DogGo\\DogGo\\Views\\Owners\\Edit.cshtml",
+              "RelativeToolTip": "DogGo\\Views\\Owners\\Edit.cshtml",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-30T11:59:46.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\workspace\\DogGo\\DogGo\\Views\\Owners\\Details.cshtml",
+              "RelativeDocumentMoniker": "DogGo\\Views\\Owners\\Details.cshtml",
+              "ToolTip": "C:\\Users\\user\\workspace\\DogGo\\DogGo\\Views\\Owners\\Details.cshtml",
+              "RelativeToolTip": "DogGo\\Views\\Owners\\Details.cshtml",
+              "ViewState": "AQIAAFUAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-30T11:59:29.588Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\workspace\\DogGo\\DogGo\\Views\\Owners\\Index.cshtml",
+              "RelativeDocumentMoniker": "DogGo\\Views\\Owners\\Index.cshtml",
+              "ToolTip": "C:\\Users\\user\\workspace\\DogGo\\DogGo\\Views\\Owners\\Index.cshtml",
+              "RelativeToolTip": "DogGo\\Views\\Owners\\Index.cshtml",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-30T11:59:48.554Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\workspace\\DogGo\\DogGo\\Views\\Dogs\\Create.cshtml",
+              "RelativeDocumentMoniker": "DogGo\\Views\\Dogs\\Create.cshtml",
+              "ToolTip": "C:\\Users\\user\\workspace\\DogGo\\DogGo\\Views\\Dogs\\Create.cshtml",
+              "RelativeToolTip": "DogGo\\Views\\Dogs\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-30T12:00:20.777Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\workspace\\DogGo\\DogGo\\Views\\Dogs\\Details.cshtml",
+              "RelativeDocumentMoniker": "DogGo\\Views\\Dogs\\Details.cshtml",
+              "ToolTip": "C:\\Users\\user\\workspace\\DogGo\\DogGo\\Views\\Dogs\\Details.cshtml",
+              "RelativeToolTip": "DogGo\\Views\\Dogs\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-30T12:00:24.28Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Dog.cs",
+              "DocumentMoniker": "C:\\Users\\user\\workspace\\DogGo\\DogGo\\Models\\Dog.cs",
+              "RelativeDocumentMoniker": "DogGo\\Models\\Dog.cs",
+              "ToolTip": "C:\\Users\\user\\workspace\\DogGo\\DogGo\\Models\\Dog.cs",
+              "RelativeToolTip": "DogGo\\Models\\Dog.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T17:47:30.251Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\user\\workspace\\DogGo\\DogGo\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "DogGo\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\user\\workspace\\DogGo\\DogGo\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "DogGo\\Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T17:47:28.391Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Neighborhood.cs",
+              "DocumentMoniker": "C:\\Users\\user\\workspace\\DogGo\\DogGo\\Models\\Neighborhood.cs",
+              "RelativeDocumentMoniker": "DogGo\\Models\\Neighborhood.cs",
+              "ToolTip": "C:\\Users\\user\\workspace\\DogGo\\DogGo\\Models\\Neighborhood.cs",
+              "RelativeToolTip": "DogGo\\Models\\Neighborhood.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T17:47:25.089Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Owner.cs",
+              "DocumentMoniker": "C:\\Users\\user\\workspace\\DogGo\\DogGo\\Models\\Owner.cs",
+              "RelativeDocumentMoniker": "DogGo\\Models\\Owner.cs",
+              "ToolTip": "C:\\Users\\user\\workspace\\DogGo\\DogGo\\Models\\Owner.cs",
+              "RelativeToolTip": "DogGo\\Models\\Owner.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T17:47:20.724Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Walker.cs",
+              "DocumentMoniker": "C:\\Users\\user\\workspace\\DogGo\\DogGo\\Models\\Walker.cs",
+              "RelativeDocumentMoniker": "DogGo\\Models\\Walker.cs",
+              "ToolTip": "C:\\Users\\user\\workspace\\DogGo\\DogGo\\Models\\Walker.cs",
+              "RelativeToolTip": "DogGo\\Models\\Walker.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T17:47:17.417Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IWalkRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\workspace\\DogGo\\DogGo\\Repositories\\IWalkRepository.cs",
+              "RelativeDocumentMoniker": "DogGo\\Repositories\\IWalkRepository.cs",
+              "ToolTip": "C:\\Users\\user\\workspace\\DogGo\\DogGo\\Repositories\\IWalkRepository.cs",
+              "RelativeToolTip": "DogGo\\Repositories\\IWalkRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T19:40:46.736Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "WalkRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\workspace\\DogGo\\DogGo\\Repositories\\WalkRepository.cs",
+              "RelativeDocumentMoniker": "DogGo\\Repositories\\WalkRepository.cs",
+              "ToolTip": "C:\\Users\\user\\workspace\\DogGo\\DogGo\\Repositories\\WalkRepository.cs",
+              "RelativeToolTip": "DogGo\\Repositories\\WalkRepository.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAWwCYAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T19:38:19.295Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ScheduleWalkViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\user\\workspace\\DogGo\\DogGo\\Models\\ViewModels\\ScheduleWalkViewModel.cs",
+              "RelativeDocumentMoniker": "DogGo\\Models\\ViewModels\\ScheduleWalkViewModel.cs",
+              "ToolTip": "C:\\Users\\user\\workspace\\DogGo\\DogGo\\Models\\ViewModels\\ScheduleWalkViewModel.cs",
+              "RelativeToolTip": "DogGo\\Models\\ViewModels\\ScheduleWalkViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T19:24:55.815Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "SelectWalker.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\workspace\\DogGo\\DogGo\\Views\\Walkers\\SelectWalker.cshtml",
+              "RelativeDocumentMoniker": "DogGo\\Views\\Walkers\\SelectWalker.cshtml",
+              "ToolTip": "C:\\Users\\user\\workspace\\DogGo\\DogGo\\Views\\Walkers\\SelectWalker.cshtml",
+              "RelativeToolTip": "DogGo\\Views\\Walkers\\SelectWalker.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-27T20:10:35.438Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\workspace\\DogGo\\DogGo\\Views\\Walkers\\Index.cshtml",
+              "RelativeDocumentMoniker": "DogGo\\Views\\Walkers\\Index.cshtml",
+              "ToolTip": "C:\\Users\\user\\workspace\\DogGo\\DogGo\\Views\\Walkers\\Index.cshtml",
+              "RelativeToolTip": "DogGo\\Views\\Walkers\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAD0AAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-27T20:11:34.978Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Walks.cs",
+              "DocumentMoniker": "C:\\Users\\user\\workspace\\DogGo\\DogGo\\Models\\Walks.cs",
+              "RelativeDocumentMoniker": "DogGo\\Models\\Walks.cs",
+              "ToolTip": "C:\\Users\\user\\workspace\\DogGo\\DogGo\\Models\\Walks.cs",
+              "RelativeToolTip": "DogGo\\Models\\Walks.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAowAsAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T02:50:40.303Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

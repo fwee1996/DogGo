@@ -1,0 +1,187 @@
+﻿@*<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - DogGo</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/DogGo.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMcEL9_U3xKM6T4eNUHSD3pBAYGsfUalx8hA&s" alt="DogGo Logo" style="height: 60px;" /> <!-- Add logo instead of just the Title DoGo that leads to homepage -->
+                </a>
+                <!-- Toggle button for responsive menu -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Navigation links moved to the right by changing  justify-content-between to end-->
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-end">  
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Walkers" asp-action="Index">Walkers</a> <!--make sure: asp-action="Index"-->
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Owners" asp-action="Index">Owners</a><!--make sure: asp-action="Index"-->
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Dogs" asp-action="Index">Dogs</a><!--make sure: asp-action="Index"-->
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2024 - DogGo - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
+
+
+*@
+
+
+
+@using System.Security.Claims;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - DogGo</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/DogGo.styles.css" asp-append-version="true" />
+    <!--custom shadow for navbar:-->
+    <style>
+        .custom-shadow {
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Corrected shadow values */
+        }
+    </style>
+</head>
+<body>
+    <header>
+            <nav class="navbar navbar-expand-sm navbar-light bg-white border-bottom custom-shadow mb-3">
+            <!--mb: margin bottom-->
+            <div class="container-fluid">
+                <!-- Logo placed to the left -->
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMcEL9_U3xKM6T4eNUHSD3pBAYGsfUalx8hA&s" alt="DogGo Logo" style="height: 40px;" /> <!-- Adjust the height as needed -->
+                </a>
+
+                <!-- Toggle button for responsive menu -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Navigation links moved to the right -->
+                <!--Before:-->
+                @*
+                    <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                <ul class="navbar-nav flex-grow-1">
+                    *@
+                <!--After:-->
+                <div class="navbar-collapse collapse d-sm-inline-flex" id="navbarNav"><!--This id allows the toggle button to correctly target this element for showing/hiding the navigation menu on smaller screens.-->
+                    <!-- Added id="navbarNav" -->
+                    <ul class="navbar-nav  ms-auto "> <!--Cant have flex-grow-1--> <!--Note: me-auto: LEFT ALLIGN; mx-auto:CENTER ALIGN ITEMS IN NAV BAR->
+                        <!-- Use ms-auto for margin start auto -->
+                        <!-- Home link -->
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">HOME</a>
+                        </li>
+                        <!-- Privacy link -->
+                        @*<li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                        </li>*@
+                        
+                        <!-- NOTE: THIS IF STATEMENT MAKES IT SO THAT IF USER IS LOGGED IN CAN SEE ALL THESE LINKS TO WALKERS AND MY DOGS OTHERWISE THERES LOGIN LINK -->
+                         @if (User.Identity.IsAuthenticated)
+                        {
+                        <!-- Walkers link -->
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Walkers" asp-action="Index">WALKERS</a> <!-- Make sure: asp-action="Index" -->
+                        </li>
+                            @if (User.IsInRole("DogOwner"))
+                            {
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" asp-area="" asp-controller="Dogs" asp-action="Index">My Dogs</a>
+                                </li>
+                            }
+                        <!-- Owners link -->
+                            <li class="nav-item ml-auto">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Owners" asp-action="Logout">Logout @User.FindFirst(ClaimTypes.Email).Value</a><!-- Make sure: asp-action="Index" , REMOVED: Index and put Logout, REMOVED: OWNERS and put custom "Logout username"-->
+                        </li>
+                        }
+                        else
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Owners" asp-action="Login">Login</a>
+                            </li>
+                        }
+                        <!-- Dogs link -->
+                        @*<li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Dogs" asp-action="Index">Dogs</a><!-- Make sure: asp-action="Index" -->
+                        </li>*@
+                        <!-- Neighborhoods link -->
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Neighborhoods" asp-action="Index">NEIGHBORHOODS</a><!-- Make sure: asp-action="Index" -->
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2024 - DogGo - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+    @*------THIS IS WHAT WE'RE ADDING----*@
+    <partial name="_ValidationScriptsPartial" />
+
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
+
+
+
+
+
+
+
+

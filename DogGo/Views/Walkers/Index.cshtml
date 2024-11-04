@@ -1,0 +1,83 @@
+﻿@model IEnumerable<DogGo.Models.Walker>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+
+<!--this is the table name tags at the top-->
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NeighborhoodId)
+            </th>
+            <th>
+                
+               Neighborhood
+             
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ImageUrl)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+
+        <!--this is content in table-->
+
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NeighborhoodId)
+            </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Neighborhood.Name)
+                </td>
+            <td>
+                    <!-- Instead of seeing the actual url, lets replace that with an actual image. Replace the code that say @* @Html.DisplayFor(modelItem => item.ImageUrl) *@ with the following  -->
+                    <img src="@item.ImageUrl" alt="avatar" />
+            </td>
+            <td>
+                    <!-- instead of using item.PrimaryKey, change the code to say item.Id on each of the action links. -->
+                    @*@Html.ActionLink("Select Walker", "SelectWalker", new { id = item.Id })|*@  <!--added this for select walker in your neighborhood-->
+                   
+                @Html.ActionLink("Edit", "Edit", new {  id=item.Id  }) | 
+                    @Html.ActionLink("Details", "Details", new { id = item.Id }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.Id })
+
+                    <!--  These action links will generate <a>
+                        tags at runtime. The first one, for example, is saying that we want an <a>
+                            tag whose text content says the word "Edit", and we also want it to link to the Edit action in the controller. Lastly, it's saying that we want to include whatever item.Id is as a route parameter. The generated anchor tag would look something like this
+
+                            <a href="/Walkers/Edit/5">Edit</a> -->
+
+            </td>
+        </tr>
+}
+
+    </tbody>
+</table>
+
+
+
+
+                 
